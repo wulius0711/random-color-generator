@@ -17,6 +17,7 @@
   "dependencies": {
     "argv": "^0.0.3",
     "chalk": "^5.3.0",
+    "projects": "link:",
     "randomcolor": "^0.6.2"
   }
 }
