@@ -1,17 +1,33 @@
 import randomColor from 'randomcolor';
-const color = randomColor();
-
 import chalk from 'chalk';
+import { argv } from 'node:process';
 
-const hashes =
-  '##############################\n##############################\n##############################\n';
-const hashesColor =
-  '########           ###########\n########  ' +
-  color +
-  '  ###########\n########           ###########\n';
+const rColor = randomColor();
 
-//const textInColor = chalk.hex(color);
+const hue = argv[2];
+const lumi = argv[3];
 
-const allText = hashes + hashesColor + hashes;
+const uColor = randomColor({
+  hue: hue,
+  luminosity: lumi,
+});
 
-console.log(chalk.hex(color).bold(allText));
+const allText = `
+##############################
+##############################
+##############################
+#########           ##########
+#########  #db6989  ##########
+#########           ##########
+##############################
+##############################
+##############################
+`;
+
+if (argv.length < 3) {
+  console.log(chalk.hex(rColor).bold(allText));
+} else {
+  console.log(chalk.hex(uColor).bold(allText));
+}
+
+// console.log(chalk.hex(rColor).bold(allText));

@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  argv:
+    specifier: ^0.0.3
+    version: 0.0.3
   chalk:
     specifier: ^5.3.0
     version: 5.3.0
@@ -726,6 +729,12 @@ packages:
   /argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
     dev: true
+
+  /argv@0.0.3:
+    resolution: {integrity: sha512-T/78+mAFUtUoCCdEiXzMwumwX490tUCQwMiKrr2DVEM90uvkiQqI3izIF5GXgCDAet1NAlPsKTV63wNc4wuIag==}
+    engines: {node: '>=0.6.10'}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+    dev: false
 
   /aria-query@5.3.0:
     resolution: {integrity: sha512-b0P0sZPKtyu8HkeRAfCq0IfURZK+SuwMjY1UXGBU27wpAiTwQAIlq56IbIO+ytk/JjS1fMR14ee5WBBfKi5J6A==}
