@@ -1,6 +1,6 @@
-import randomColor from 'randomcolor';
-import chalk from 'chalk';
 import { argv } from 'node:process';
+import chalk from 'chalk';
+import randomColor from 'randomcolor';
 
 const rColor = randomColor();
 
@@ -17,7 +17,7 @@ const allText = `
 ##############################
 ##############################
 #########           ##########
-#########  #db6989  ##########
+#########  ${rColor}  ##########
 #########           ##########
 ##############################
 ##############################
