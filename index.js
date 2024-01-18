@@ -11,13 +11,14 @@ const userColor = randomColor({
 });
 
 if (argv.length < 3) {
+  const color = randomColor();
   console.log(
-    chalk.hex(randomColor).bold(`
+    chalk.hex(color).bold(`
 ##############################
 ##############################
 ##############################
 #####                    #####
-#####      ${randomColor}       #####
+#####      ${color}       #####
 #####                    #####
 ##############################
 ##############################
