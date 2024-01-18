@@ -22,9 +22,9 @@ create if-condition for either random or user input
 
 # TO-Dos
 
-[x] Output random color
-[x] create text for output
-[x] commit random color to text
-[x] get user input with argv
-[x] user input
-[x] print either random or user-input
+- [x] Output random color
+- [x] create text for output
+- [x] commit random color to text
+- [x] get user input with argv
+- [x] user input
+- [x] print either random or user-input
