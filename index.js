@@ -2,8 +2,6 @@ import { argv } from 'node:process';
 import chalk from 'chalk';
 import randomColor from 'randomcolor';
 
-const randomColor = randomColor();
-
 const hue = argv[2];
 const lumi = argv[3];
 
